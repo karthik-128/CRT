@@ -31,7 +31,7 @@ while currentNode != None:
 
 
 
-#jhcbewuidb
+#searching
     class Node:
         def __init__(self, data):
             self.data = data 
@@ -130,7 +130,7 @@ printLinkedList(head)
 
 
 
- #iudch8w
+ #delete tail node
 def deleteTailNode(head):
     if head == None or head.next == None:
         return None
